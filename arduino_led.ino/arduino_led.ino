@@ -11,15 +11,22 @@ pinMode(ledRedPin, OUTPUT);
 
 void loop() {
   // main code here, to run repeatedly:
-  digitalWrite(ledGreenPin, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
-  digitalWrite(ledGreenPin, LOW);    // turn the LED off by making the voltage LOW
+
+  //Green light
+  digitalWrite(ledGreenPin, HIGH);         // turn the LED on (HIGH is the voltage level)
+  delay(500);                             // delay time
+  digitalWrite(ledGreenPin, LOW);        // turn the LED off by making the voltage LOW
   delay(500);
 
-  digitalWrite(ledYellowPin, HIGH);   // turn the LED on (HIGH is the voltage level)
-  digitalWrite(ledRedPin, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
-  digitalWrite(ledYellowPin, LOW);    // turn the LED off by making the voltage LOW
-  digitalWrite(ledRedPin, LOW);    // turn the LED off by making the voltage LOW
-  delay(500);// wait for a second
+
+  //Yellow light
+  digitalWrite(ledYellowPin, HIGH);     // turn the LED on (HIGH is the voltage level)
+  digitalWrite(ledYellowPin, LOW);       // turn the LED off by making the voltage LOW
+  delay(500);                          // delay time
+
+
+  //Red light
+  digitalWrite(ledRedPin, HIGH);      // turn the LED on (HIGH is the voltage level)
+  digitalWrite(ledRedPin, LOW);      // turn the LED off by making the voltage LOW
+  delay(500);                       // delay time
 }
