@@ -1,2 +1,2 @@
 
-<img src = "https://imgur.com/a/lJ5Mi" title = "arduino-led"/>
+<img src = "https://imgur.com/a/lJ5Mi.gif" title = "arduino-led"/>
